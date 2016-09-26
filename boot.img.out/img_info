@@ -1,0 +1,12 @@
+kernel=kernel
+ramdisk=RAMDISK
+page_size=2048
+kernel_size=3570104
+ramdisk_size=708195
+base_addr=0x48000000
+kernel_offset=0x00008000
+ramdisk_offset=0x01400000
+tags_offset=0x00000100
+cmd_line='console=none androidboot.hardware=pyramid no_console_suspend=1 androidboot.selinux=permissive'
+board=""
+format=gzip
